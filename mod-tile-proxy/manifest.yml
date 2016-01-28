@@ -1,0 +1,9 @@
+---
+applications:
+- name: mod-tile-bg
+  buildpack: nodejs_buildpack
+  memory: 256M
+  disk_quota: 256M
+  path: .
+services:
+- geomf-service
